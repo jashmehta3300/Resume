@@ -1,0 +1,141 @@
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Jash Mehta}
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+\address{\\LinkedIn : https://www.linkedin.com/in/jash-mehta-045665190
+\\Github : https://www.github.com/jashmehta3300\\
+}
+\address{\\jashmehta3300@gmail.com \\(+91) 9987549857\\}
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{OBJECTIVE}
+{\sl Second year Computer Engineering student at DJ Sanghvi College of Engineering. Inquisitive, hard-working and consistent. Looking for internship opportunities where I can apply my skills and contribute to real-world projects }
+
+\section{EDUCATION}
+\textbf{Dwarkadas Jivanlal Sanghvi College of Engineering}, Mumbai\\
+{\sl Bachelor of Technology (B. Tech)}, Computer Engineering\\
+Expected May, 2022
+\hfill CGPA: 9.21/10.00\\
+\textbf{Pace Junior Science College}, Mumbai \\
+{\sl Class XII (Senior Secondary Examination)}, HSC\\
+March 2018
+\hfill Aggregate 88.62\%\\
+\textbf{Gundecha Education Academy}, Mumbai \\
+{\sl Class X (Secondary Examination)}, ICSE\\
+May 2016
+\hfill Aggregate 95.4\%
+
+
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{TECHNICAL\\SKILLS}
+
+\textbf{Languages : } JavaScript, Python, C
+\\
+\textbf{General : } Data Structures, Algorithm, Object Oriented Programming
+\\
+\textbf{Tools/Framework : } React.js, Chart.js, Particle.js, Bootstrap
+\\
+\textbf{Familiar : } HTML, CSS
+\\
+\textbf{Other : } Version Control - git
+
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+\section{EXPERIENCE}
+
+\textbf{Krish Chem India : Web Development Intern \hfill{Dec 2019 - Jan 2020}\\}
+\normalfont{Developed user interfaces with modern JavaScript frameworks like chart.js and particle.js, bootstrap, HTML5 and CSS3}
+
+\section{PROJECTS}
+\employer{self}
+\location{}
+\title{\textbf{Vidalytics - Video Analysis Platform\hfill Jan 2020
+}}
+\begin{position}
+% \begin{itemize}
+An offline service for content creators that performs video content analysis for designing effective marketing and business development policies.
+% \end{itemize}
+\begin{itemize}
+\item \textbf{Technology/Tools:} Node.js, Azure, Praw, Flask, Numpy, scikit-learn and other frameworks of JavaScript
+\end{itemize}
+\begin{itemize}
+\item \textbf{Link :} https://github.com/jashmehta3300/Vidalytics
+\end{itemize}
+\end{position}
+
+\employer{self}
+\location{}
+\title{\textbf{Lead Prioritization Engine with Web Dashboard\hfill Sept 2019 }
+ }
+\begin{position}
+% \begin{itemize}
+Developed a Website for Analytics Platform which could be used by any start-up. This was developed during the Ace Hackathon
+% \end{itemize}
+\begin{itemize}
+\item \textbf{Technology/Tools:} Node.js, Flask, Pandas, Numpy, Scikit-learn, Express.js and other frameworks of JavaScript
+\end{itemize}
+\begin{itemize}
+\item \textbf{Link :} https://github.com/jashmehta3300/Lead-Prioritization-Engine
+\end{itemize}
+\end{position}
+
+\employer{self}
+\location{}
+\title{\textbf{Cannister Satellite\hfill Sept 2019 - Dec 2019}
+ }
+\begin{position}
+% \begin{itemize}
+Built a web-app in JavaScript which plots live values from sensors in Arduino on graph, updated every 200ms. Used chart.js to make responsive and attractive graphs. Express was used to make a server and Socket.io for live updation of data
+
+% \end{itemize}
+\begin{itemize}
+\item \textbf{Technology/Tools:} html, css, JavaScript, chart.js, particle.js, node.js, express.js
+\end{itemize}
+\begin{itemize}
+\item \textbf{Link :} https://github.com/jashmehta3300/Cannister-Satellite-Dashboard
+\end{itemize}
+\end{position}
+
+\section{ADDITIONAL ACTIVITIES}
+
+\normalfont{ \textbullet{} Frontend Developer at DJ Unicode(works on open source projects) \\}
+\normalfont{ \textbullet{} Coding Team Member at DJS Arya\\}
+
+%-------------------------------------------------------------------------------
+
+
+\end{resume}
+\(\)\end{document}
